@@ -1,0 +1,39 @@
+# requirements.txt
+
+# LLM & Agent Framework
+langchain
+langchain-community
+langchain-groq
+langchain-core
+
+# Vector Databases
+faiss-cpu
+chromadb
+
+# Embeddings (local, free — no API key needed)
+sentence-transformers
+
+# Document Loading
+pypdf
+python-docx
+
+# Web Search (free, no key needed)
+duckduckgo-search
+
+# Environment
+python-dotenv
+
+# UI
+streamlit
+
+# Data
+pandas
+numpy
+tiktoken
+
+# HTTP
+requests
+
+# Utilities
+tqdm
+rich

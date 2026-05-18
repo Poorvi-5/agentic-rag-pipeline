@@ -1,0 +1,13 @@
+# .gitignore
+
+.env
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+data/vector_store/
+*.faiss
+*.pkl
+.ipynb_checkpoints/
+chroma_db/
