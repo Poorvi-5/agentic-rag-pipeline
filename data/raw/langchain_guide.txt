@@ -1,0 +1,41 @@
+LangChain Framework Guide
+
+LangChain is an open-source framework for building applications powered by large 
+language models. It provides tools and abstractions for connecting LLMs with 
+external data sources and APIs.
+
+Core Components of LangChain:
+
+1. Models: LangChain supports many LLM providers including OpenAI, Anthropic, 
+Groq, HuggingFace, and more. You can switch between providers with minimal code changes.
+
+2. Prompts: LangChain provides prompt templates that allow you to create reusable 
+and parameterized prompts. PromptTemplate and ChatPromptTemplate are the most commonly used.
+
+3. Chains: Chains combine multiple components together. A simple chain might connect 
+a prompt template to an LLM. More complex chains can involve multiple steps and decision points.
+
+4. Agents: LangChain agents use LLMs as reasoning engines to determine which actions 
+to take. The ReAct (Reasoning and Acting) pattern is commonly used where the agent 
+thinks step by step before taking action.
+
+5. Tools: Tools are functions that agents can call. Examples include web search, 
+calculator, database query, and file reader tools.
+
+6. Vector Stores: LangChain integrates with FAISS, ChromaDB, Pinecone, Weaviate 
+and other vector databases for storing and retrieving embeddings.
+
+7. Memory: LangChain provides memory components that allow conversational AI 
+systems to remember previous interactions in a conversation.
+
+Groq is a hardware company that provides ultra-fast LLM inference. Their API is 
+compatible with the OpenAI API format making it easy to use with LangChain through 
+the langchain-groq package. Groq runs models like Llama 3.1 70B at speeds exceeding 
+500 tokens per second.
+
+The ReAct agent pattern works as follows:
+- Thought: The agent reasons about what to do
+- Action: The agent selects and calls a tool
+- Observation: The agent reads the tool output
+- Repeat until the agent has enough information
+- Final Answer: The agent produces the final response

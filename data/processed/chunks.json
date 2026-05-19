@@ -1,0 +1,79 @@
+[
+  {
+    "content": "Artificial Intelligence and Machine Learning Basics\n\nArtificial Intelligence (AI) refers to the simulation of human intelligence in machines \nthat are programmed to think and learn. AI systems can perform tasks that typically \nrequire human intelligence such as visual perception, speech recognition, decision-making, \nand language translation.",
+    "source": "ai_basics.txt",
+    "file_type": "txt",
+    "chunk_id": 0,
+    "total_chunks": 6
+  },
+  {
+    "content": "Machine Learning is a subset of AI that enables systems to learn and improve from \nexperience without being explicitly programmed. Machine learning focuses on developing \ncomputer programs that can access data and use it to learn for themselves.\n\nDeep Learning is a subset of machine learning that uses neural networks with many layers. \nThese deep neural networks are capable of learning representations of data with multiple \nlevels of abstraction.",
+    "source": "ai_basics.txt",
+    "file_type": "txt",
+    "chunk_id": 1,
+    "total_chunks": 6
+  },
+  {
+    "content": "Large Language Models (LLMs) are AI systems trained on massive amounts of text data. \nThey can generate human-like text, answer questions, summarize documents, and perform \nmany other language tasks. Examples include GPT-4, Claude, and Llama.",
+    "source": "ai_basics.txt",
+    "file_type": "txt",
+    "chunk_id": 2,
+    "total_chunks": 6
+  },
+  {
+    "content": "Retrieval Augmented Generation (RAG) is a technique that combines information retrieval \nwith text generation. Instead of relying solely on the LLM's training data, RAG systems \nfirst retrieve relevant documents from a knowledge base, then use that context to generate \naccurate and grounded responses.",
+    "source": "ai_basics.txt",
+    "file_type": "txt",
+    "chunk_id": 3,
+    "total_chunks": 6
+  },
+  {
+    "content": "Vector databases store data as mathematical vectors — arrays of numbers that represent \nthe meaning of text. FAISS (Facebook AI Similarity Search) is a popular vector database \nfor efficient similarity search. ChromaDB is another vector database that offers \npersistent storage and easy integration with LangChain.",
+    "source": "ai_basics.txt",
+    "file_type": "txt",
+    "chunk_id": 4,
+    "total_chunks": 6
+  },
+  {
+    "content": "Embeddings are numerical representations of text that capture semantic meaning. \nSimilar texts have similar embeddings. The sentence-transformers library provides \npre-trained models to generate high-quality embeddings locally without any API calls.",
+    "source": "ai_basics.txt",
+    "file_type": "txt",
+    "chunk_id": 5,
+    "total_chunks": 6
+  },
+  {
+    "content": "LangChain Framework Guide\n\nLangChain is an open-source framework for building applications powered by large \nlanguage models. It provides tools and abstractions for connecting LLMs with \nexternal data sources and APIs.\n\nCore Components of LangChain:\n\n1. Models: LangChain supports many LLM providers including OpenAI, Anthropic, \nGroq, HuggingFace, and more. You can switch between providers with minimal code changes.",
+    "source": "langchain_guide.txt",
+    "file_type": "txt",
+    "chunk_id": 0,
+    "total_chunks": 5
+  },
+  {
+    "content": "2. Prompts: LangChain provides prompt templates that allow you to create reusable \nand parameterized prompts. PromptTemplate and ChatPromptTemplate are the most commonly used.\n\n3. Chains: Chains combine multiple components together. A simple chain might connect \na prompt template to an LLM. More complex chains can involve multiple steps and decision points.",
+    "source": "langchain_guide.txt",
+    "file_type": "txt",
+    "chunk_id": 1,
+    "total_chunks": 5
+  },
+  {
+    "content": "4. Agents: LangChain agents use LLMs as reasoning engines to determine which actions \nto take. The ReAct (Reasoning and Acting) pattern is commonly used where the agent \nthinks step by step before taking action.\n\n5. Tools: Tools are functions that agents can call. Examples include web search, \ncalculator, database query, and file reader tools.\n\n6. Vector Stores: LangChain integrates with FAISS, ChromaDB, Pinecone, Weaviate \nand other vector databases for storing and retrieving embeddings.",
+    "source": "langchain_guide.txt",
+    "file_type": "txt",
+    "chunk_id": 2,
+    "total_chunks": 5
+  },
+  {
+    "content": "7. Memory: LangChain provides memory components that allow conversational AI \nsystems to remember previous interactions in a conversation.\n\nGroq is a hardware company that provides ultra-fast LLM inference. Their API is \ncompatible with the OpenAI API format making it easy to use with LangChain through \nthe langchain-groq package. Groq runs models like Llama 3.1 70B at speeds exceeding \n500 tokens per second.",
+    "source": "langchain_guide.txt",
+    "file_type": "txt",
+    "chunk_id": 3,
+    "total_chunks": 5
+  },
+  {
+    "content": "The ReAct agent pattern works as follows:\n- Thought: The agent reasons about what to do\n- Action: The agent selects and calls a tool\n- Observation: The agent reads the tool output\n- Repeat until the agent has enough information\n- Final Answer: The agent produces the final response",
+    "source": "langchain_guide.txt",
+    "file_type": "txt",
+    "chunk_id": 4,
+    "total_chunks": 5
+  }
+]

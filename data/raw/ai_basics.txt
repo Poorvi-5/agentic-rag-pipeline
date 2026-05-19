@@ -1,0 +1,32 @@
+Artificial Intelligence and Machine Learning Basics
+
+Artificial Intelligence (AI) refers to the simulation of human intelligence in machines 
+that are programmed to think and learn. AI systems can perform tasks that typically 
+require human intelligence such as visual perception, speech recognition, decision-making, 
+and language translation.
+
+Machine Learning is a subset of AI that enables systems to learn and improve from 
+experience without being explicitly programmed. Machine learning focuses on developing 
+computer programs that can access data and use it to learn for themselves.
+
+Deep Learning is a subset of machine learning that uses neural networks with many layers. 
+These deep neural networks are capable of learning representations of data with multiple 
+levels of abstraction.
+
+Large Language Models (LLMs) are AI systems trained on massive amounts of text data. 
+They can generate human-like text, answer questions, summarize documents, and perform 
+many other language tasks. Examples include GPT-4, Claude, and Llama.
+
+Retrieval Augmented Generation (RAG) is a technique that combines information retrieval 
+with text generation. Instead of relying solely on the LLM's training data, RAG systems 
+first retrieve relevant documents from a knowledge base, then use that context to generate 
+accurate and grounded responses.
+
+Vector databases store data as mathematical vectors — arrays of numbers that represent 
+the meaning of text. FAISS (Facebook AI Similarity Search) is a popular vector database 
+for efficient similarity search. ChromaDB is another vector database that offers 
+persistent storage and easy integration with LangChain.
+
+Embeddings are numerical representations of text that capture semantic meaning. 
+Similar texts have similar embeddings. The sentence-transformers library provides 
+pre-trained models to generate high-quality embeddings locally without any API calls.
